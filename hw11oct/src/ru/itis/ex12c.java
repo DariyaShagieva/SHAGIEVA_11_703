@@ -13,7 +13,7 @@ public class ex12c {
             s += t*p;
             p = -p;
             n++;
-            x *=x;
+            x *=x; //только четные степени
             t = x/n;
         }
         System.out.print(s);

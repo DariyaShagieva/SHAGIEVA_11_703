@@ -11,7 +11,7 @@ public class ex6 {
         while (i < n){
             i++;
             p = -p;
-            g = g + p*(1.0/Math.pow((2*i-1), 2));
+            g = g + p*(1.0/((2*i-1)*(2*i-1)));
         }
         System.out.print(g);
     }

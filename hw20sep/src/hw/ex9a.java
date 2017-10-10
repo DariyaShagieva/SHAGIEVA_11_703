@@ -10,7 +10,7 @@ public class ex9a {
         while (i < n){
             i++;
             p = - p;
-            s = s + p*(1.0/ (n*n));
+            s = s + p*(1.0/ (n*n));  //i*i в знаменателе
 
         }
         System.out.print(s);

@@ -11,7 +11,7 @@ public class ex12a {
 
         while (Math.abs(t)> e){
             s += t;
-            t *= x/(1.0*n);
+            t *= x/(1.0*n); //можно не писать 1.0, х же не целый
             n++;
         }
         System.out.print(s);

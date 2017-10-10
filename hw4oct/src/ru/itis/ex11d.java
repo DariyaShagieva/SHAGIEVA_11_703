@@ -12,7 +12,7 @@ public class ex11d {
         int n = scanner.nextInt();
         for ( int i = 1; i <= n; i++){
             t *=x;
-            p *= Math.cos(t);
+            p *= Math.cos(t);    // неверная конструкция
             s += Math.cos(t);
         }
         System.out.println(s);

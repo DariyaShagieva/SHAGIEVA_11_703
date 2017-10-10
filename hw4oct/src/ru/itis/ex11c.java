@@ -8,7 +8,7 @@ public class ex11c {
         int n = scanner.nextInt();
         double p = 1;
         for (int i = 1; i <= n; i++){
-            p *=(Math.tan(i));
+            p *=(Math.tan(i)); // нет там тангенсов
         }
         System.out.print(p);
     }

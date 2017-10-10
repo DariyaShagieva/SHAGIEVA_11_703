@@ -14,7 +14,7 @@ public class ex10a {
         for (int i = 1; i <= n; i++){
             p = -p;
             t *=x*x/i;
-            s += p*t/(2*i+1);
+            s += p*t/(2*i+1);  //в принципе, тоже выход
 
         }
         System.out.print(s);

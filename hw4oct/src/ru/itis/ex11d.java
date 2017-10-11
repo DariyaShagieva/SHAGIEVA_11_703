@@ -5,17 +5,12 @@ import java.util.Scanner;
 public class ex11d {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        double p = scanner.nextDouble();
-        double s = scanner.nextDouble();
-        double x = scanner.nextDouble();
-        double t = 1;
         int n = scanner.nextInt();
-        for ( int i = 1; i <= n; i++){
-            t *=x;
-            p *= Math.cos(t);    // неверная конструкция
-            s += Math.cos(t);
+        double p = 1;
+        for (int i = 1; i <= n; i++){
+            p *=(Math.tan(i));
         }
-        System.out.println(s);
         System.out.print(p);
     }
+
 }

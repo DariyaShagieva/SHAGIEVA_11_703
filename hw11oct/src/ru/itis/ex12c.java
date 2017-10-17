@@ -7,14 +7,14 @@ public class ex12c {
         Scanner scanner = new Scanner(System.in);
         int n = 1, p =1;
         double x = scanner.nextDouble();
-        double e = 0.000000001, t = 1, s = 0;
+        double e = 0.0000001, t = x, s = 0, l = x;
 
         while (Math.abs(t) > e){
             s += t*p;
             p = -p;
             n++;
-            x *=x; //только четные степени
-            t = x/n;
+            l *=x;
+            t = l/n;
         }
         System.out.print(s);
     }

@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//-
 
 import java.util.Scanner;
 
@@ -20,7 +20,7 @@ public class ex15 {
         }
         for ( int i = k-1; i >= 0; i--){
             if (a[i] % 2 == 1) {
-                System.out.print(a[i]);
+                System.out.print(a[i]);//а где построенное число?
             }
         }
     }

@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//-
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ public class ex12c {
             s += t*p;
             p = -p;
             n++;
-            l *=x;
+            l *=x;  //плохо
             t = l/n;
         }
         System.out.print(s);

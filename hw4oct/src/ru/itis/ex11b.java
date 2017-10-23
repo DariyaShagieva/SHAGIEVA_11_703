@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//-
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class ex11b {
         int n = scanner.nextInt();
         double p = 1;
         for (int i = 1; i <= n; i++){
-            p *= Math.cos(i)/Math.sin(i);
+            p *= Math.cos(i)/Math.sin(i);//сумму не вижу
         }
         System.out.print(p);
     }

@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//-
 
 import java.util.Scanner;
 
@@ -9,7 +9,7 @@ public class ex11d {
         int n = scanner.nextInt();
         double p = 1;
         for (int i = 1; i <= n; i++){
-            p *= Math.sin(i)/Math.cos(i);
+            p *= Math.sin(i)/Math.cos(i);//неверная формула
         }
         System.out.print(p);
     }

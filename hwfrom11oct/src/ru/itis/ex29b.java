@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//+
 
 public class ex29b {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package hw;
+package hw;//-
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ public class ex9c {
         double t = 1, sum = 1;
         while (i <= n){
             p = -p;
-            t *=3;
+            t *=3;  //плохо
             sum = sum + 1.0*p/((2*i+1)*t);
             i++;
         }

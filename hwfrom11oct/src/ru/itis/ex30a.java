@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//+
 
 public class ex30a {
     // задание 30а

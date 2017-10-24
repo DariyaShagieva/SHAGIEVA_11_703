@@ -11,9 +11,10 @@ public class ex9c {
         double t = 1, sum = 1;
         while (i <= n){
             p = -p;
-            t *=3;  //плохо
-            sum = sum + 1.0*p/((2*i+1)*t);
+            t *=1.0*(2*i-1)/((2*i+1)*3);
+            sum += p*t;
             i++;
+
         }
         System.out.print(sum);
 

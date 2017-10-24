@@ -12,7 +12,7 @@ public class ex3 {
             }
         }
         for (int i = k + 1; i < a.length; i++){
-            p *= a[i];
+            if (a[i] != 0) p *= a[i];
         }
         System.out.print(p);
     }

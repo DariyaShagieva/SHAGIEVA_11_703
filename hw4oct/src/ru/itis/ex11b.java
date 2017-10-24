@@ -7,10 +7,11 @@ public class ex11b {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-        double p = 1;
+        double sum = 0,p = 1;
         for (int i = 1; i <= n; i++){
-            p *= Math.cos(i)/Math.sin(i);//сумму не вижу
+            p*= Math.cos(i)/Math.sin(i);
+            sum += p;
         }
-        System.out.print(p);
+        System.out.print(sum);
     }
 }

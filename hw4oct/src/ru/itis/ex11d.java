@@ -7,11 +7,12 @@ public class ex11d {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
-        double p = 1;
+        double p = 1, pr = 1;
         for (int i = 1; i <= n; i++){
-            p *= Math.sin(i)/Math.cos(i);//неверная формула
+            p *= Math.sin(i)/Math.cos(i);
+            pr *= p;
         }
-        System.out.print(p);
+        System.out.print(pr);
     }
 
 }

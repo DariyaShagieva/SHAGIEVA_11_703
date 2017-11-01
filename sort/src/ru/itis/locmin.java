@@ -18,18 +18,20 @@ public class locmin {
         System.out.println();
         for ( int i = 0; i < n - 1; i++){
             min = a[i];
-            for ( int j = i + 1; j < a.length; j++){
-                if ( a[j] < min) {
+            for ( int j = i + 1; j < a.length; j++) {
+                if (a[j] < min) {
                     min = a[j];
-                    k = j;}
-                if ( i != j) {
+                    k = j;
+                }
+            }
+                if ( i != k) {
                     t = a[i];
                     a[i] = min;
                     a[k] = t;
 
                 }
             }
-        }
+
         for (int i = 0; i < n; i++){
             System.out.print(a[i] + " ");
         }

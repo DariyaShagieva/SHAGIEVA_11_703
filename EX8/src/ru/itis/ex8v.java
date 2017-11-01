@@ -30,7 +30,7 @@ public class ex8v {
         System.out.println();
         System.out.println(" разность между t1 и t2");
         for ( int i = 0; i < raz.length; i++){
-            if(t1[i] != t2[i]) raz[i] = 1;
+            if(t1[i] == 1 & t1[i] != t2[i]) raz[i] = 1;
             System.out.print(raz[i] + " ");
         }
 

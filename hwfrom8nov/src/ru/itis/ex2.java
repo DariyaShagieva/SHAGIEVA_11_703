@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class ex2 {
-    // обнулить элементы ниже главной диоганали
+    // обнулить элементы ниже главной диaгнали
     public static void randomMatrix(int matrix[][]) {
         Random random = new Random();
         for (int i = 0; i < matrix.length; i++) {

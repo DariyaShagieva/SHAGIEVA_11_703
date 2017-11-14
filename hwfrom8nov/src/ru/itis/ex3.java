@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class ex3 {
-    // заполнить единицами выше побочной диаганали
+    // заполнить единицами выше побочной диагонали
     public static void randomMatrix(int matrix[][]) {
         Random random = new Random();
         for (int i = 0; i < matrix.length; i++) {

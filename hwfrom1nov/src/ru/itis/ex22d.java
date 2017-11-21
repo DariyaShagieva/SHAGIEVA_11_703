@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//-
 
 public class ex22d
         // задание 22 д
@@ -17,7 +17,7 @@ public class ex22d
             if (k == a.length-1) z++;
             k = 0;
         }
-        System.out.println(z);
+        System.out.println(z);  //bad solution
 
 
     }

@@ -9,7 +9,7 @@ public class Main {
 	    String s = scanner.nextLine();
 	    boolean f = false;
         for (int i = 0; i <s.length() && !f ; i++) {
-            if(s.charAt(i)%2 < 1 || s.charAt(i) < 1 ) f = true; //why such conditions?
+            if(s.charAt(i)%2 == 0 || s.charAt(i)%3 == 0 ) f = true; //why such conditions?
 
         }
         if (f) System.out.println("такие цифры есть");

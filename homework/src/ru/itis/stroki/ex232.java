@@ -1,4 +1,4 @@
-package ru.itis.stroki;
+package ru.itis.stroki;//-
 
 import java.util.Scanner;
 
@@ -15,7 +15,7 @@ public class ex232 {
             }
             if(f) k++;
         }
-        System.out.println(k);
+        System.out.println(k);   //where the symbols
 
     }
 }

@@ -16,7 +16,7 @@ public class ex4 {
                     if (str.charAt(i) == '0') state = 2;
                     break;
                 case 2:
-                    if (str.charAt(i) == '0') k++;
+                    if (str.charAt(i) == '0') k++;    //no calculations! Only automaton
                     else{
                         if (k % 2 != 0) f = false;
                         else {

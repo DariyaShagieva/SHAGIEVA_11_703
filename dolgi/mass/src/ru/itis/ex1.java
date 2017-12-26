@@ -22,7 +22,7 @@ public class ex1 {
             if(a[k] > arr[k][0]) {
                 for (int i = k + 1; i < n + 1; i++) {
                     for (int j = 0; j < m ; j++) {
-                        t = arr[i][j];
+                        t = arr[i][j];                     //why is it so difficult?
                         arr[i][j] = a[j];
                         a[j] = t;
                     }

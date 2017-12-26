@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//-
 
 import java.util.Scanner;
 
@@ -11,14 +11,14 @@ public class ex7 {
                 case 0:
                     if (str.charAt(i) == '1'){
                         state++;
-                        k1++;
+                        k1++;                       //no calculations
                     }
                     else k0++;
                     break;
                 case 1:
                     if (str.charAt(i) == '0'){
                         state--;
-                        k0++;
+                        k0++;      
                     }
                     else k1++;
                     break;

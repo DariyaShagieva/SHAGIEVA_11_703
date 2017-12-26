@@ -10,11 +10,14 @@ public class Main {
         Train train = new Train(50, 200);
         Car car = new Car(10, 100 );
         int distanceBetweenCities = 1300;
-        System.out.println("На самолете стоимоть доставки будет " + plane.costOfTransportation(distanceBetweenCities) +
-                 " рубля(-ей), время доставки " + plane.calculateTime(distanceBetweenCities) + " час(-ов)");
-        System.out.println("На поезде стоимоть доставки будет " + train.costOfTransportation(distanceBetweenCities) +
-                " рубля(-ей), время доставки " + train.calculateTime(distanceBetweenCities) + " час(-ов)");
-        System.out.println("На машине стоимоть доставки будет " + car.costOfTransportation(distanceBetweenCities) +
-                " рубля(-ей), время доставки " + car.calculateTime(distanceBetweenCities) + " час(-ов)");
+        plane.costOfTransportation(distanceBetweenCities);
+        plane.calculateTime(distanceBetweenCities);
+        System.out.println();
+        train.costOfTransportation(distanceBetweenCities);
+        train.calculateTime(distanceBetweenCities);
+        System.out.println();
+        car.costOfTransportation(distanceBetweenCities);
+        car.calculateTime(distanceBetweenCities);
+
     }
 }

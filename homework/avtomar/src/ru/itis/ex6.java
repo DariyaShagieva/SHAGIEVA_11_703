@@ -11,7 +11,7 @@ public class ex6 {
                 case 0:
                     if (str.charAt(i) == '1'){
                         state++;
-                        k1++;
+                        k1++;      //no calculations
                     }
                     else k0++;
                     break;

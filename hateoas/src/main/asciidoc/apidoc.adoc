@@ -1,0 +1,42 @@
+= Описание API
+
+== Способности
+
+=== методы
+
+|===
+|Метод | Назначение
+|`PUT` |Обновить сущность или ее состояние
+|===
+
+=== Изменить статус на *STUDIED*
+
+Изменить статус с *IN_PROCESS* (в процессе изучения) на *STUDIED* (изучен)
+
+.request
+
+include::{snippets}/studied_skills/http-request.adoc[]
+
+.response
+
+include::{snippets}/studied_skills/http-response.adoc[]
+
+.response-fields
+
+include::{snippets}/studied_skills/response-fields.adoc[]
+
+=== Изменить статус на *IN_PROCESS*
+
+Изменить статус с *WISH* (хотел бы изучить) на *IN_PROCESS* (в процессе изучения)
+
+.request
+
+include::{snippets}/in_process_skills/http-request.adoc[]
+
+.response
+
+include::{snippets}/in_process_skills/http-response.adoc[]
+
+.response-fields
+
+include::{snippets}/in_process_skills/response-fields.adoc[]
